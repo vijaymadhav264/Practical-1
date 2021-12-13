@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" type="./image/x-icon" href="./images/favicon.ico"/>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity=""
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Flipkart</title>
+  </head>
+  <body>
+    <header>
+      <div class="header_top">
+        <a href="#" class="float-left">
+          <img src="./images/flipkart-1.jpg" width="60" height="46" alt="Flipkart" />
+          <div class="ep">
+          </div>
+        </a>
+        <form class="search_form float-left">
+          <input
+            type="text"
+            placeholder="Search for products, brands and more"
+          />
+          <button type="submit" class="btn">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <ul class="nav nav-pills top_nav">
+          <li class="nav-item">
+            <a class="nav-link login_btn" href="#">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              >More<i class="fas fa-sort-down"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="fas fa-shopping-cart"></i>Cart</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!--Categories-->
+      <div class="container">
+        <div class="header">
+
+            <ul class="header-images-ul">
+                <li><a href="#"><img src="./images/cat1.png" class="header-images"></a></li>
+                <li><a href="#"><img src="./images/cat2.png" class="header-images"></a></li>
+                <li><a href="#"><img src="./images/cat3.png" class="header-images"></a></li>
+                <li><a href="#"><img src="./images/cat4.png" class="header-images"></a></li>
+                <li><a href="#"><img src="./images/cat5.png" class="header-images"></a></li>
+                <li><a href="#"><img src="./images/cat6.png" class="header-images"></a></li>
+                <li><a href="#"><img src="./images/cat7.png" class="header-images"></a></li>
+                <li><a href="#"><img src="./images/cat8.png" class="header-images"></a></li>
+                <li><a href="#"><img src="./images/cat9.png" class="header-images"></a></li>
+            </ul>
+
+            <ul class="header-items-ul">
+                <li><a href="#" class="header-items">Top Offers</a></li>
+                <li><a href="#" class="header-items">Grocery</a></li>
+                <li><a href="#" class="header-items">Mobiles</a></li>
+                <li><a href="#" class="header-items">Fashion</a></li>
+                <li><a href="#" class="header-items">Electronics</a></li>
+                <li><a href="#" class="header-items">Home</a></li>
+                <li><a href="#" class="header-items">Appliances</a></li>
+                <li><a href="#" class="header-items">Travel</a></li>
+                <li><a href="#" class="header-items">Toys & more</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--Sliders-->
+    <div class="row row-content">
+      <div class="col">
+          <div id="mycarousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner" role="listbox">
+                  <div class="carousel-item active">
+                      <img class="d-block img-fluid"
+                          src="./images/slider1.jpg" alt="Slider1"
+                          width="1550"
+                          height="170">
+                  </div>
+                  <div class="carousel-item">
+                      <img class="d-block img-fluid"
+                          src="./images/slider3.jpg" alt="Slider3"
+                          width="1550"
+                          height="178">
+                  </div>
+                  <div class="carousel-item">
+                      <img class="d-block img-fluid"
+                          src="./images/slider2.jpg" alt="Slider2"
+                          width="1550"
+                          height="178">
+                  </div>
+                  <ol class="carousel-indicators">
+                      <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#mycarousel" data-slide-to="1"></li>
+                      <li data-target="#mycarousel" data-slide-to="2"></li>
+                  </ol>
+                  <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                   </a>
+                  <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="main1">
+    <div class="row">
+      <div class="col-md-10 bgwhite">
+        <div class="main1_c10_top">
+          <div class="float-left">
+            <h4 class="float-left m-0">
+              <strong>Deals of the Day</strong>
+            </h4>
+            <div
+              class="float-left text-secondary"
+              style="margin-left: 20px; margin-top: 5px"
+            >
+              <img src="./images/timer.svg" width="20" alt="" />
+              <span>1 : </span>
+              <span>59 : </span>
+              <span>59 Left</span>
+            </div>
+          </div>
+          <a href="#" class="btn btn-primary btn-sm float-right"
+            >VIEW ALL</a
+          >
+        </div>
+            <div id="demo1" class="carousel slide" data-ride="carousel">
+
+              <!-- The slideshow -->
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="box">
+                    <div class="row">
+                      <div class="col">
+                        <a href="#" class="text-center left">
+                          <img
+                            src="./images/deal-1.jpeg"
+                            width="150"
+                            height="150"
+                            alt=""
+                          />
+                          <div class="text-body">
+                            <strong>Book Shelf</strong>
+                          </div>
+                          <div class="text-success">
+                            Upto 80%off
+                          </div>
+                          <div class="text-secondary">Crazy Deals and Many More</div>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a href="#" class="text-center left">
+                          <img
+                            src="./images/deal-2.jpeg"
+                            width="150"
+                            height="150"
+                            alt=""
+                          />
+                          <div class="text-body">
+                            <strong>Home Temple & more</strong>
+                          </div>
+                          <div class="text-success">
+                            Extra 10%off
+                          </div>
+                          <div class="text-secondary">Crazy Deals and Many More</div>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a href="#" class="text-center left">
+                          <img
+                            src="./images/deal-3.jpeg"
+                            width="150"
+                            height="150"
+                            alt=""
+                          />
+                          <div class="text-body">
+                            <strong>Premium Tablet Cases</strong>
+                          </div>
+                          <div class="text-success">
+                           Extra 10%off
+                          </div>
+                          <div class="text-secondary">Crazy Deals and Many More</div>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a href="#" class="text-center left">
+                          <img
+                            src="./images/deal-4.jpeg"
+                            width="150"
+                            height="150"
+                            alt=""
+                          />
+                          <div class="text-body">
+                            <strong>Home Theatre</strong>
+                          </div>
+                          <div class="text-success">
+                            From $189
+                          </div>
+                          <div class="text-secondary">Crazy Deals and Many More</div>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a href="#" class="text-center left">
+                          <img
+                            src="./images/deal-5.png"
+                            width="150"
+                            height="150"
+                            alt=""
+                          />
+                          <div class="text-body">
+                            <strong>Mens Wear,T-Shirts</strong>
+                          </div>
+                          <div class="text-success">
+                            From $219
+                          </div>
+                          <div class="text-secondary">Crazy Deals and Many More</div>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a href="#" class="text-center left">
+                          <img
+                            src="./images/deal-6.jpeg"
+                            width="150"
+                            height="150"
+                            alt=""
+                          />
+                          <div class="text-body">
+                            <strong>Lady's Handbags</strong>
+                          </div>
+                          <div class="text-success">
+                            Flat $179 off
+                          </div>
+                          <div class="text-secondary">Crazy Deals and Many More</div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="box">
+                    <div class="row">
+                      <div class="col">
+                        <a href="#" class="text-center left">
+                          <img
+                            src="./images/deal-8.jpeg"
+                            width="150"
+                            height="150"
+                            alt=""
+                          />
+                          <div class="text-body">
+                            <strong>Womens Casuals</strong>
+                          </div>
+                          <div class="text-success">
+                            From $359
+                          </div>
+                          <div class="text-secondary">Crazy Deals and Many More</div>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a href="#" class="text-center left">
+                          <img
+                            src="./images/deal-9.jpeg"
+                            width="150"
+                            height="150"
+                            alt=""
+                          />
+                          <div class="text-body">
+                            <strong>Cushion</strong>
+                          </div>
+                          <div class="text-success">
+                            Extra 10%off
+                          </div>
+                          <div class="text-secondary">Crazy Deals and Many More</div>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a href="#" class="text-center left">
+                          <img
+                            src="./images/deal-10.jpeg"
+                            width="150"
+                            height="150"
+                            alt=""
+                          />
+                          <div class="text-body">
+                            <strong>Wall Frame</strong>
+                          </div>
+                          <div class="text-success">
+                            Upto 80%off
+                          </div>
+                          <div class="text-secondary">Crazy Deals and Many More</div>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a href="#" class="text-center left">
+                          <img
+                            src="./images/deal-12.jpeg"
+                            width="150"
+                            height="150"
+                            alt=""
+                          />
+                          <div class="text-body">
+                            <strong>Book Shelf</strong>
+                          </div>
+                          <div class="text-success">
+                            Flat $59 off
+                          </div>
+                          <div class="text-secondary">Crazy Deals and Many More</div>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a href="#" class="text-center left">
+                          <img
+                            src="./images/deal-11.jpeg"
+                            width="150"
+                            height="150"
+                            alt=""
+                          />
+                          <div class="text-body">
+                            <strong>Mini Shelf </strong>
+                          </div>
+                          <div class="text-success">
+                            Extra 10%off
+                          </div>
+                          <div class="text-secondary">Crazy Deals and Many More</div>
+                        </a>
+                      </div>
+                      <div class="col">
+                        <a href="#" class="text-center left">
+                          <img
+                            src="./images/deal-1.jpeg"
+                            width="150"
+                            height="150"
+                            alt=""
+                          />
+                          <div class="text-body">
+                            <strong>Casino,Fastrack,Sonata</strong>
+                          </div>
+                          <div class="text-success">
+                            Upto 80%off
+                          </div>
+                          <div class="text-secondary">Crazy Deals and Many More</div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Left and right controls -->
+              <a
+                class="carousel-control-prev main_carousel"
+                href="#demo1"
+                data-slide="prev"
+              >
+                <i class="fa fa-chevron-left"></i>
+              </a>
+              <a
+                class="carousel-control-next main_carousel"
+                href="#demo1"
+                data-slide="next"
+              >
+                <i class="fa fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <a href="#">
+              <img
+                width="100%"
+                height="100%"
+                src="./images/deal-7.jpg"
+                style="border: 5px solid #fff; margin: 0px 3px"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="main2">
+        <div class="row">
+          <div class="col-md-12 bgwhite" style="padding: 0px">
+            <div class="main1_c10_top">
+              <div class="float-left">
+                <h4 class="float-left m-0">
+                  <strong>Mobiles & Accesories</strong>
+                </h4>
+              </div>
+              <a href="#" class="btn btn-primary btn-sm float-right"
+                >VIEW ALL</a
+              >
+            </div>
+            
+            <!-- Mobiles & Accesories -->
+            <div class="box">
+              <div class="row">
+                <div class="col">
+                  <a href="#" class="text-center left">
+                    <img
+                      src="./images/mobile-1.png"
+                      width="150"
+                      height="150"
+                      alt=""
+                    />
+                    <div class="text-body">
+                      <strong>Mobiles,Accesories</strong>
+                    </div>
+                    <div class="text-success">Upto 80%off</div>
+                    <div class="text-secondary">Best Deal and Offers</div>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="#" class="text-center left">
+                    <img
+                      src="./images/mobiles-2.png"
+                      width="150"
+                      height="150"
+                      alt=""
+                    />
+                    <div class="text-body">
+                      <strong>Mobiles,Accesories</strong>
+                    </div>
+                    <div class="text-success">Extra 10%off</div>
+                    <div class="text-secondary">Best Deal and Offers</div>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="#" class="text-center left">
+                    <img
+                      src="./images/mobile-3.png"
+                      width="150"
+                      height="150"
+                      alt=""
+                    />
+                    <div class="text-body">
+                      <strong>Mobiles,Accesories</strong>
+                    </div>
+                    <div class="text-success">From $2500</div>
+                    <div class="text-secondary">Best Deal and Offers</div>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="#" class="text-center left">
+                    <img
+                      src="./images/mobile-5.png"
+                      width="150"
+                      height="150"
+                      alt=""
+                    />
+                    <div class="text-body">
+                      <strong>Mobiles,Accesories</strong>
+                    </div>
+                    <div class="text-success">From $2300</div>
+                    <div class="text-secondary">Best Deal and Offers</div>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="#" class="text-center left">
+                    <img
+                      src="./images/mobile-4.png"
+                      width="150"
+                      height="150"
+                      alt=""
+                    />
+                    <div class="text-body">
+                      <strong>Mobiles,Accesories</strong>
+                    </div>
+                    <div class="text-success">From $2700</div>
+                    <div class="text-secondary">Best Deal and Offers</div>
+                  </a>
+                </div>
+                <div class="col">
+                  <a href="#" class="text-center left">
+                    <img
+                      src="./images/mobile-6.png"
+                      width="150"
+                      height="150"
+                      alt=""
+                    />
+                    <div class="text-body">
+                      <strong>Mobiles,Accesories</strong>
+                    </div>
+                    <div class="text-success">From $200</div>
+                    <div class="text-secondary">Best Deal and Offers</div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
