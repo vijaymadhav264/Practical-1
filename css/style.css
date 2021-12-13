@@ -205,10 +205,10 @@ div.main1 {
 #demo1 {
   overflow: hidden;
 }
-#demo1 .a_carousel {
+#demo1 .main_carousel {
   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
-#demo1 .a_carousel:hover {
+#demo1 .main_carousel:hover {
   box-shadow: 0px 0px 6px 6px rgba(0, 10, 10, 0.19);
 }
 div.main2 {
